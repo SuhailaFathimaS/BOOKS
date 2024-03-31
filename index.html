@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Book List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2f1; /* Light blue-green background */
+        }
+        header {
+            background-color: #26a69a; /* Teal header */
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+        #logo {
+            height: 50px;
+            margin-right: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #26a69a;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="LOGO.jpg" alt="Sastra University Logo">
+        <h1>SASTRA Deemed University - Central Library</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Access No</th>
+                <th>Title</th>
+                <th>Author Name</th>
+                <th>Issue Date</th>
+                <th>Document Type</th>
+                <th>Publisher</th>
+                <th>Location</th>
+                <th>Edition</th>
+                <th>Year</th>
+                <th>Status</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10001</td>
+                <td>Introduction to Algebra</td>
+                <td>Smith A.B</td>
+                <td>2024-01-15</td>
+                <td>Book</td>
+                <td>Pearson</td>
+                <td>Mathematics</td>
+                <td>1st</td>
+                <td>2020</td>
+                <td>Available</td>
+                <td>$19.99</td>
+            </tr>
+            <tr>
+                <td>10002</td>
+                <td>Calculus Basics</td>
+                <td>Johnson C.D</td>
+                <td>2024-02-05</td>
+                <td>Book</td>
+                <td>McGraw-Hill</td>
+                <td>Mathematics</td>
+                <td>3rd</td>
+                <td>2019</td>
+                <td>Available</td>
+                <td>$24.99</td>
+            </tr>
+            <tr>
+                <td>10003</td>
+                <td>Linear Algebra Essentials</td>
+                <td>Williams E.F</td>
+                <td>2024-02-20</td>
+                <td>Book</td>
+                <td>Cambridge University Press</td>
+                <td>Mathematics</td>
+                <td>2nd</td>
+                <td>2017</td>
+                <td>Available</td>
+                <td>$21.99</td>
+            </tr>
+            <tr>
+                <td>10004</td>
+                <td>Discrete Mathematics</td>
+                <td>Anderson G.H</td>
+                <td>2024-03-10</td>
+                <td>Book</td>
+                <td>Springer</td>
+                <td>Mathematics</td>
+                <td>4th</td>
+                <td>2021</td>
+                <td>Available</td>
+                <td>$29.99</td>
+            </tr>
+            <tr>
+                <td>10005</td>
+                <td>Geometry Fundamentals</td>
+                <td>Wilson I.J</td>
+                <td>2024-03-25</td>
+                <td>Book</td>
+                <td>Oxford University Press</td>
+                <td>Mathematics</td>
+                <td>1st</td>
+                <td>2018</td>
+                <td>Available</td>
+                <td>$18.99</td>
+            </tr>
+            <tr>
+                <td>10006</td>
+                <td>Advanced Trigonometry</td>
+                <td>Thompson K.L</td>
+                <td>2024-04-05</td>
+                <td>Book</td>
+                <td>Wiley</td>
+                <td>Mathematics</td>
+                <td>2nd</td>
+                <td>2016</td>
+                <td>Available</td>
+                <td>$22.99</td>
+            </tr>
+            <tr>
+                <td>10007</td>
+                <td>Probability and Statistics</td>
+                <td>Miller L.M</td>
+                <td>2024-04-20</td>
+                <td>Book</td>
+                <td>Pearson</td>
+                <td>Mathematics</td>
+                <td>3rd</td>
+                <td>2020</td>
+                <td>Available</td>
+                <td>$27.99</td>
+            </tr>
+            <tr>
+                <td>10008</td>
+                <td>Mathematical Analysis</td>
+                <td>Clark N.O</td>
+                <td>2024-05-10</td>
+                <td>Book</td>
+                <td>Elsevier</td>
+                <td>Mathematics</td>
+                <td>5th</td>
+                <td>2019</td>
+                <td>Available</td>
+                <td>$31.99</td>
+            </tr>
+            <tr>
+                <td>10009</td>
+                <td>Mathematical Logic</td>
+                <td>Parker P.Q</td>
+                <td>2024-05-25</td>
+                <td>Book</td>
+                <td>Routledge</td>
+                <td>Mathematics</td>
+                <td>1st</td>
+                <td>2015</td>
+                <td>Available</td>
+                <td>$20.99</td>
+            </tr>
+            <tr>
+                <td>10010</td>
+                <td>Number Theory</td>
+                <td>King R.S</td>
+                <td>2024-06-05</td>
+                <td>Book</td>
+                <td>Academic Press</td>
+                <td>Mathematics</td>
+                <td>2nd</td>
+                <td>2014</td>
+                <td>Available</td>
+                <td>$23.99</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
